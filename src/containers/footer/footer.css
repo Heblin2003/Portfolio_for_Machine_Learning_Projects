@@ -1,0 +1,166 @@
+.footer{
+    background-color:rgb(241, 239, 239) ;
+    color:white;
+    padding-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    /* background-color:rgb(246, 244, 244) ; */
+    display: flex; /* Add display flex */
+}
+
+
+.footer-logo{
+    flex: 1;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+
+.footer-content{
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.footer-content h1{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.footer-content p{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.footer-content1{
+    align-items: center;
+    padding-left: 2rem;
+    color: #000;
+    padding-bottom: 45px;
+}
+
+
+.footer-content1 p{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.footer-content2 h1{
+    color: #000;
+    font-size: 25px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.footer-content2 p{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.footer-content3 h1{
+    color: #000;
+    font-size: 25px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.footer-content3 p{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+.footer-content1 h1{
+    color: #000;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer-content2{
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #000;
+    padding-bottom: 65px;
+}
+
+.footer-content3{
+    white-space: nowrap;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #000;
+}
+
+
+.form-group h1{
+    color: #000;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.form-group p{
+    color: #000;
+    font-family:  Arial, Helvetica, sans-serif
+}
+
+.form-group button{
+    font-family:  Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #000;
+}
+
+.input{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+input{
+    font-family:  Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    width: 100%; /* Make the input take the full available width */
+    padding-right: 20px;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+button{
+    width: 200px;
+    flex: 1;
+    font-family:  Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    padding-right: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .footer-logo{
+        display: none;
+    }
+    .footer-content1{
+        display: none;
+    }
+    .footer-content2{
+        display: none;
+    }
+    .footer-content3{
+        display: none;
+    }
+    .footer-content{
+        margin-right: 50px;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+
+    .footer{
+        width: 400px;
+    }
+
+  }
+ 
+

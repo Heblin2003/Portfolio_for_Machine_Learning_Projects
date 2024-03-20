@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+/* .gradient__bg{
+   
+    background: linear-gradient(90deg, rgba(120, 119, 119, 1) 0%, rgba(0, 0, 0, 1) 100%);
+} */
+
+.gradient__text{
+    color: #fff;
+    
+}
